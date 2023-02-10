@@ -106,11 +106,24 @@ namespace CSharpReg
                 }
                 else if (keuze == "2")
                 {
-                    // TODO: Afmaken
+                    Console.WriteLine("Uitvoeren terugbetaling");
+                    Console.Write("Bedrag originele bon: ");
+                    string terugTeGevenStr = Console.ReadLine();
+                    int terugTeGeven = int.Parse(terugTeGevenStr);
+                    Console.Write("Reden retour: ");
+                    string reden = Console.ReadLine();
+                    dagTotaalTerug = terugTeGeven;
                 }
                 else if (keuze == "3")
                 {
-                    // TODO: Afmaken
+                    decimal math = bedragInKassaBegin + dagTotaal - dagTotaalTerug;
+                    Console.WriteLine("======= DAG TOTALEN ========");
+                    Console.WriteLine("In kassa begin:   " + bedragInKassaBegin);
+                    Console.WriteLine("Verkocht:         " + dagTotaal);
+                    Console.WriteLine("Retour:           " + dagTotaalTerug);
+                    Console.WriteLine("In kassa:         " + math);
+                    Console.WriteLine("Druk op <ENTER> om door te gaan.");
+                    Console.ReadLine();
                 }
             }
             Console.WriteLine("Hoeveel zit er nu in de kassa?");
