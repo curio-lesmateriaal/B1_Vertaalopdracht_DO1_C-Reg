@@ -131,6 +131,7 @@ namespace CSharpReg
             Console.WriteLine("Verkocht:      " + dagTotaal.ToString());
             Console.WriteLine("Totaal retour: " + dagTotaalTerug.ToString());
             Console.WriteLine("In kassa:      " + inKassa.ToString());
+            Console.WriteLine("Kassa verschil:" + (inKassa - (bedragInKassaBegin + dagTotaal - dagTotaalTerug)).ToString());
             Console.WriteLine("============================");
         }
     }
