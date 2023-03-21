@@ -109,7 +109,7 @@ namespace CSharpReg
                     Console.WriteLine("Uitvoeren terugbetaling");
                     Console.Write("Bedrag originele bon: ");
                     string terugTeGevenStr = Console.ReadLine();
-                    int terugTeGeven = int.Parse(terugTeGevenStr);
+                    decimal terugTeGeven = Convert.ToDecimal(terugTeGevenStr);
                     Console.Write("Reden retour: ");
                     string reden = Console.ReadLine();
                     dagTotaalTerug = terugTeGeven;
