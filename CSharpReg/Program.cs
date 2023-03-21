@@ -7,7 +7,7 @@ namespace CSharpReg
         static void Main(string[] args)
         {
             Console.WriteLine("========== C#Reg ===========");
-            Console.WriteLine("Welkom bij C#Reg, het Python KassaSysteem voor en door DeveloperLand!");
+            Console.WriteLine("Welkom bij C#Reg, het slang KassaSysteem voor en door DeveloperLand!");
             Console.WriteLine("Tel de kassa, en geef op hoeveel er nu in zit.");
             Console.WriteLine("Bedrag in kassa?");
             decimal bedragInKassaBegin = decimal.Parse(Console.ReadLine());
