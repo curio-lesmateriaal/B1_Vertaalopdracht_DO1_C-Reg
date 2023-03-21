@@ -125,7 +125,7 @@ namespace CSharpReg
             }
 
             Console.Clear();
-            Console.WriteLine("Kassa klopt, programma wordt afgesloten.");
+            Console.WriteLine("Kassa klopt, programma wordt afgesloten, bla bla.");
             Console.WriteLine("======== DAGTOTALEN ========");
             Console.WriteLine("Aantal bonnen: " + aantalBonnen.ToString());
             Console.WriteLine("Verkocht:      " + dagTotaal.ToString());

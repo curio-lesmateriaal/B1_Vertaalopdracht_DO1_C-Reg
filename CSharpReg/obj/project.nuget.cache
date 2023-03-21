@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zMSwUjsALqlCk6WML4CS20FEZ1IQ3MjHEQsdrXSuBQS2B5OOcMlOvC18upql4fqAu8SeYvOvou9KuElI2CeTmw==",
+  "dgSpecHash": "UzvZsIEXYZwUs6qICljr+AVUYVnG/1soDXXYQDnF2b4TjdJHWNpCKqkk/nXqyEsMwZq/lIVmMWB4Oiryjl8TOQ==",
   "success": true,
-  "projectFilePath": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jimde\\RiderProjects\\B1_Vertaalopdracht_DO1_C-Reg\\CSharpReg\\CSharpReg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jimde\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jimde\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jimde\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jimde\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
